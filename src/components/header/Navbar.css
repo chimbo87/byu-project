@@ -1,0 +1,46 @@
+.navbar {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  z-index: 100;
+
+  /* background-color: #4a494924; */
+}
+#logo {
+  width: 120px;
+  height: 80px;
+}
+#logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-item {
+  margin: 0px 20px;
+}
+#navLink {
+  color: #f8a73d;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+#navLink:hover{
+    color: #b45516;
+}
+#navIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navIcons i {
+  font-size: 20px;
+  color: #f8a73d;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#navIcons i:hover {
+    rotate: 20deg;
+    color: #b45516;
+}
