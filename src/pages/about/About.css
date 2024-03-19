@@ -1,0 +1,80 @@
+#aboutPage {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #121212d9, #121212d9),
+    url("../../assets/banner06.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#aboutPage h2{
+    background: -webkit-linear-gradient(0deg, #008000, #f1975b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 3.8rem;
+    text-align: start;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+#ourTeamCard{
+    width: 100%;
+    height: 400px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    box-shadow: 1px 2px 19px #00000024;
+}
+#ourTeamCard img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#aboutUsCard {
+    margin-top: 30px;
+}
+#aboutUsCard h4{
+    color:#008000;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+#ourTeamBox{
+    margin-top: 30px;
+}
+#ourTeamBox h4{
+    color:#008000;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+#teamTitle{
+   
+    color: #808080;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+#teamName{
+    margin-top: 15px;
+    color: #f1975b;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+#ourTeamIcons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ourTeamIcons i{
+    color: #808080;
+    font-size: 18px;
+    margin: 0px 10px;
+    cursor: pointer;
+}

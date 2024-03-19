@@ -1,28 +1,58 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate, Link } from "react-router-dom";
 import "./Navbar.css";
 import Logo from "../../assets/brand.png";
 
 function Navbar() {
+  const navigate = useNavigate();
+  const [scrolling, setScrolling] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+
+  const handleClick = () => {
+    setIsActive(!isActive);
+  };
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <nav class="navbar navbar-expand-lg">
+    <nav class={`navbar ${scrolling ? "scrolled" : ""} navbar-expand-lg`}>
       <div class="container-fluid">
         <div id="logo">
           <img src={Logo} />
         </div>
         <button
-          class="navbar-toggler"
-          type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          className={`toggle-button ${isActive ? "active" : ""}`}
+          onClick={handleClick}
         >
-          <span class="navbar-toggler-icon"></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li
+              class="nav-item"
+              onClick={() => {
+                navigate("/");
+              }}
+            >
               <a
                 class="nav-link active"
                 aria-current="page"
@@ -32,7 +62,12 @@ function Navbar() {
                 HOME
               </a>
             </li>
-            <li class="nav-item">
+            <li
+              class="nav-item"
+              onClick={() => {
+                navigate("/about");
+              }}
+            >
               <a
                 class="nav-link active"
                 aria-current="page"
@@ -42,7 +77,27 @@ function Navbar() {
                 ABOUT
               </a>
             </li>
-            <li class="nav-item">
+            <li
+              class="nav-item"
+              onClick={() => {
+                navigate("/products");
+              }}
+            >
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                id="navLink"
+              >
+                PRODUCTS
+              </a>
+            </li>
+            <li
+              class="nav-item"
+              onClick={() => {
+                navigate("/contact");
+              }}
+            >
               <a
                 class="nav-link active"
                 aria-current="page"

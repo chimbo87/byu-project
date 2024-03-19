@@ -6,8 +6,10 @@
   justify-content: start;
   background: linear-gradient(
       to right,
-      #121212d9, #121212d9,
-      #31303090, #31303090,
+      #121212d9,
+      #121212d9,
+      #31303090,
+      #31303090,
       #121212d9
     ),
     url("../../assets/banner03.jpg");
@@ -19,7 +21,7 @@
 #homeBox {
   margin-top: 60px;
   max-width: 700px;
-  margin-left: 60px;
+  /* margin-left: 60px; */
 }
 #homeBox h1 {
   background: -webkit-linear-gradient(0deg, #008000, #f1975b);
@@ -48,6 +50,217 @@
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
-#homeBox button:hover{
-    color: #f1975b;
+#homeBox button:hover {
+  color: #f1975b;
+}
+
+#homeOfferBox {
+  margin-top: 20px;
+  padding: 20px;
+  background-image: linear-gradient(to right, #3937378e, #2c2b2b32, #39373793);
+  border-radius: 4px;
+}
+#offerCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 1px 2px 19px #00000084;
+}
+#offerCard img {
+  width: 100px;
+  margin-right: 8px;
+  height: inherit;
+  object-fit: cover;
+}
+#offerCard h4 {
+  font-weight: 600;
+  color: #008000;
+  text-align: start;
+  font-family: "Montserrat", sans-serif;
+}
+
+#newsLetterBox {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#newsLetterBox h4 {
+  color: #008000;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+#newsLetterBox p {
+  color: #222222;
+  font-weight: 600;
+}
+#newsLetterBoxCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#newsLetterBoxCard input {
+  width: 80%;
+  height: 40px;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+#newsLetterBoxCard input:focus {
+  outline: none;
+}
+#newsLetterBoxCard button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 50px;
+  width: 20%;
+  background-color: #008000;
+  color: antiquewhite;
+  border-radius: 4px;
+  margin-left: 10px;
+  border: none;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+#homeAboutBox {
+  margin-top: 20px;
+}
+#homeAboutBoxCard {
+  width: 100%;
+  margin-top: 20px;
+}
+#homeAboutBoxCard h4 {
+  color: #008000;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+#homeAboutBoxCard p {
+  color: gray;
+  font-weight: 400;
+  line-height: 2rem;
+}
+#homeAboutBoxCard button {
+  padding: 10px 30px;
+  background-color: #008000;
+  color: antiquewhite;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+#homeAboutBoxCard button:hover {
+  color: #f1975b;
+}
+
+#homeAboutBoxCard img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 4px;
+}
+#homeProduct {
+  margin-top: 30px;
+}
+#homeProductCard {
+  background-image: url("../../assets/product05.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#homeProductCardA {
+  background-image: url("../../assets/product01.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#homeProductCardB {
+  background-image: url("../../assets/product02.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#homeProductCardHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(
+    to top,
+    #0000005d,
+    #25242494,
+    #000000,
+    #000000
+  );
+  border-radius: 5px 5px 0px 0px;
+}
+#homeProductCardHead h5 {
+  background: -webkit-linear-gradient(0deg, antiquewhite, #f1975b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+#homeProductCardText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(to bottom, #00000082, #111111fe, #000000eb);
+  border-radius: 0px 0px 5px 5px;
+}
+#homeProductCardText p {
+  margin: 0px 8px;
+  color: antiquewhite;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 750px) {
+  #homeBox h1 {
+    background: -webkit-linear-gradient(0deg, #008000, #f1975b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 3rem;
+    text-align: start;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+  }
 }
