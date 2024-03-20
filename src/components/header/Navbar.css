@@ -39,6 +39,14 @@
     margin: 3px 0;
     transition: transform 0.3s, opacity 0.3s;
   }
+  #middleSpan{
+    width: 30px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #f8a73d;
+    margin: 3px 0;
+    transition: transform 0.3s, opacity 0.3s;
+  }
   
   .toggle-button.active span:nth-child(1) {
     transform: rotate(45deg) translate(3px, 3px);

@@ -42,7 +42,7 @@ function Navbar() {
           onClick={handleClick}
         >
           <span></span>
-          <span></span>
+          <span id="middleSpan"></span>
           <span></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
