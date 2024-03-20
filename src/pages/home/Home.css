@@ -111,6 +111,7 @@
   height: 40px;
   border: 2px solid green;
   border-radius: 4px;
+  padding-left: 15px;
 }
 #newsLetterBoxCard input:focus {
   outline: none;
@@ -182,6 +183,11 @@
   height: 500px;
   border-radius: 5px;
   margin-top: 20px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+#homeProductCard:hover {
+  transform: translateY(-5px);
 }
 #homeProductCardA {
   background-image: url("../../assets/product01.jpeg");
@@ -196,6 +202,8 @@
   height: 500px;
   border-radius: 5px;
   margin-top: 20px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
 }
 #homeProductCardB {
   background-image: url("../../assets/product02.jpeg");
@@ -210,6 +218,14 @@
   height: 500px;
   border-radius: 5px;
   margin-top: 20px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+#homeProductCardA:hover {
+  transform: translateY(-5px);
+}
+#homeProductCardB:hover {
+  transform: translateY(-5px);
 }
 #homeProductCardHead {
   display: flex;

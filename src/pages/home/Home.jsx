@@ -6,7 +6,9 @@ import Offer03 from "../../assets/offer03.png";
 import Offer04 from "../../assets/offer04.png";
 import banner from "../../assets/banner06.jpeg";
 import Footer from "../../components/footer/Footer";
+import { useNavigate } from "react-router-dom";
 function Home() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="container-fluid" id="homePage">
@@ -23,7 +25,13 @@ function Home() {
               that every glass of juice delivers pure refreshment, straight from
               nature's bounty.
             </p>
-            <button>Order Now</button>
+            <button
+              onClick={() => {
+                navigate("/products");
+              }}
+            >
+              Order Now
+            </button>
           </div>
         </div>
       </div>
@@ -58,9 +66,11 @@ function Home() {
           <div id="newsLetterBox">
             <h4>Please subscribe to our news letters</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
+              Your privacy matters to us! Rest assured, your personal
+              information is safe and secure with us. We are committed to
+              protecting your data and will never share or sell it to third
+              parties. Subscribe to our newsletter with confidence, knowing that
+              your information is treated with the utmost care and respect
             </p>
             <div id="newsLetterBoxCard">
               <input type="email" placeholder="Email Address" />
@@ -87,7 +97,13 @@ function Home() {
                 Join us on this flavorful expedition and experience the true
                 essence of Muonde Juice.
               </p>
-              <button>READ MORE</button>
+              <button
+                onClick={() => {
+                  navigate("/about");
+                }}
+              >
+                READ MORE
+              </button>
             </div>
           </div>
           <div class="col-lg-6 col-md-4">

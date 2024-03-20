@@ -186,7 +186,10 @@ function Footer() {
           <div id="footerRightCard">
             <small>
               {" "}
-              &copy; Mauyu Juices 2024. Developed by <a href="#">CHIMBO</a>
+              &copy; Mauyu Juices 2024. Developed by{" "}
+              <a href="https://wa.me/27677366141" target="_blank">
+                CHIMBO
+              </a>
             </small>
           </div>
         </div>

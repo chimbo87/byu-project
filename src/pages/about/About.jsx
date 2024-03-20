@@ -18,16 +18,19 @@ function About() {
           <div class="col-lg-6 col-md-4">
             <div id="aboutUsCard">
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                Welcome to Muonde Juice, where the passion for pure, refreshing
+                fruit juices meets community spirit! Founded by a group of
+                neighbors with a shared love for wholesome living, our journey
+                began right in our own backyard. What started as a small
+                initiative has blossomed into a thriving venture, spreading the
+                joy of fresh fruit goodness beyond our neighborhood borders.
+                Committed to quality and authenticity, we handpick the finest
+                fruits and craft them into delightful juices that capture the
+                essence of nature's bounty. As we continue to grow, our mission
+                remains unchanged: to bring the taste of our orchard to towns
+                far and wide, nurturing health and happiness one sip at a time.
+                Join us on this flavorful expedition and experience the true
+                essence of Muonde Juice.
               </p>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -78,8 +81,8 @@ function About() {
           <div class="col-lg-3 col-md-4">
             <div id="ourTeamCard">
               <img src={user01} />
-              <h5 id="teamName">Archford Nhanga</h5>
-              <h5 id="teamTitle">Technical Manager</h5>
+              <h5 id="teamName">Adrian Oliphant</h5>
+              <h5 id="teamTitle">Marketing Manager</h5>
               <div id="ourTeamIcons">
                 <i class="bx bxl-facebook"></i>
                 <i class="bx bxl-instagram"></i>
@@ -91,7 +94,7 @@ function About() {
           <div class="col-lg-3 col-md-4">
             <div id="ourTeamCard">
               <img src={user03} />
-              <h5 id="teamName">Archford Nhanga</h5>
+              <h5 id="teamName">Bafokeng Motopi</h5>
               <h5 id="teamTitle">Technical Manager</h5>
               <div id="ourTeamIcons">
                 <i class="bx bxl-facebook"></i>
@@ -104,8 +107,8 @@ function About() {
           <div class="col-lg-3 col-md-4">
             <div id="ourTeamCard">
               <img src={user01} />
-              <h5 id="teamName">Archford Nhanga</h5>
-              <h5 id="teamTitle">Technical Manager</h5>
+              <h5 id="teamName">Natashia</h5>
+              <h5 id="teamTitle">Accounting Manager</h5>
               <div id="ourTeamIcons">
                 <i class="bx bxl-facebook"></i>
                 <i class="bx bxl-instagram"></i>
@@ -150,7 +153,7 @@ function About() {
                 aria-expanded="true"
                 aria-controls="panelsStayOpen-collapseOne"
               >
-                Accordion Item #1
+                  Premium Quality Ingredients
               </button>
             </h2>
             <div
@@ -158,15 +161,10 @@ function About() {
               class="accordion-collapse collapse show"
             >
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is
-                shown by default, until the collapse plugin adds the appropriate
-                classes that we use to style each element. These classes control
-                the overall appearance, as well as the showing and hiding via
-                CSS transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that
-                just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                We source only the finest, ripest fruits to create our juices,
+                ensuring every bottle is bursting with natural goodness and
+                unbeatable flavor. Experience the difference that quality
+                ingredients make with every refreshing sip.
               </div>
             </div>
           </div>
@@ -181,7 +179,7 @@ function About() {
                 aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseTwo"
               >
-                Accordion Item #2
+             Variety of Flavors
               </button>
             </h2>
             <div
@@ -189,19 +187,39 @@ function About() {
               class="accordion-collapse collapse"
             >
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                From classic favorites to unique blends, we offer an extensive
+                range of fruit juices to tantalize your taste buds and suit
+                every craving. Discover new and exciting flavor combinations
+                that will keep you coming back for more
               </div>
             </div>
           </div>
 
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFour"
+              >
+             Health and Wellness Focus
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFour"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                Our juices are not only delicious but also packed with essential
+                nutrients, vitamins, and antioxidants to support your overall
+                well-being. With every sip, you're nourishing your body and
+                revitalizing your senses, making healthy living a breeze.
+              </div>
+            </div>
+          </div>
 
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -209,95 +227,56 @@ function About() {
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree"
+                data-bs-target="#panelsStayOpen-collapseFive"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree"
+                aria-controls="panelsStayOpen-collapseFive"
               >
-                Accordion Item #3
+                Commitment to Sustainability
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseThree"
+              id="panelsStayOpen-collapseFive"
               class="accordion-collapse collapse"
             >
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                We're dedicated to protecting the planet as much as we are to
+                creating great-tasting juices. That's why we strive to minimize
+                our environmental footprint by using eco-friendly packaging and
+                implementing sustainable practices throughout our production
+                process.
               </div>
             </div>
           </div>
-            
+
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree"
+                data-bs-target="#panelsStayOpen-collapseSix"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree"
+                aria-controls="panelsStayOpen-collapseSix"
               >
-                Accordion Item #3
+                Customer Satisfaction Guaranteed
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseThree"
+              id="panelsStayOpen-collapseSix"
               class="accordion-collapse collapse"
             >
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
-              </div>
-            </div>
-          </div>
-            
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree"
-                aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree"
-              >
-                Accordion Item #3
-              </button>
-            </h2>
-            <div
-              id="panelsStayOpen-collapseThree"
-              class="accordion-collapse collapse"
-            >
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                We take pride in delivering exceptional customer service and
+                ensuring your satisfaction with every purchase. If for any
+                reason you're not completely happy with your experience, our
+                friendly team is here to make it right. Your happiness is our
+                top priority.
               </div>
             </div>
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
