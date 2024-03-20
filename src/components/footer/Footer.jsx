@@ -11,9 +11,8 @@ function Footer() {
         <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Absolutely love the fresh flavors! A burst of sunshine in every sip{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
         <small>
           Archford C, Zimbabwe ~ <i>20 Oct 2020</i>
@@ -25,9 +24,8 @@ function Footer() {
         <img src="https://avatar.iran.liara.run/public" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Refreshing and delicious! Perfect for a pick-me-up anytime.{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
         <small>
           John Doe, USA C ~ <i>20 Oct 2020</i>
@@ -39,9 +37,8 @@ function Footer() {
         <img src="https://avatar.iran.liara.run/public/boy" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          My new go-to for natural hydration. Simply delightful!{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
         <small>
           Trish G, Brazil ~ <i>20 Oct 2020</i>
@@ -53,9 +50,8 @@ function Footer() {
         <img src="https://avatar.iran.liara.run/public/boy" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Incredible taste, and I feel great knowing it's all-natural{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
         <small>
           Travor S ~ <i>20 Oct 2020</i>
@@ -67,9 +63,8 @@ function Footer() {
         <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Best fruit juices I've ever tasted. Pure perfection!{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
         <small>
           Lylod P, S Africa C ~ <i>20 Oct 2020</i>
@@ -81,9 +76,8 @@ function Footer() {
         <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Every flavor is a masterpiece. Truly a treat for the senses.{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
         <small>
           Tatenda B, Mozambique C ~ <i>20 Oct 2020</i>
@@ -95,9 +89,8 @@ function Footer() {
         <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          So glad I discovered these juices. Pure bliss in a bottle!{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
         <small>
           Archford C ~ <i>20 Oct 2020</i>
@@ -109,9 +102,8 @@ function Footer() {
         <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Healthy never tasted so good! These juices are a game-changer.{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
         <small>
           Archford C ~ <i>20 Oct 2020</i>
@@ -123,9 +115,8 @@ function Footer() {
         <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          My family can't get enough! Thank you for keeping us refreshed{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
         <small>
           Archford C ~ <i>20 Oct 2020</i>
@@ -138,9 +129,8 @@ function Footer() {
         <img src="https://avatar.iran.liara.run/public/boy" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          From the first sip to the last drop, these juices are pure happiness!{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
         <small>
           Archford C ~ <i>20 Oct 2020</i>

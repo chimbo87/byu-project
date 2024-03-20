@@ -135,4 +135,16 @@
         background-size: cover;
         padding: 20px 50px;
     }
+    #aboutPage {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right, #121212d9, #121212d9),
+          url("../../assets/banner06.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
   }
