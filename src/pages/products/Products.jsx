@@ -3,9 +3,11 @@ import './Products.css';
 
 function Products() {
   return (
-    <div>
+   <>
+    <div className='container-fluid' id='productPage'>
         <h1>Products Page</h1>
     </div>
+   </>
   )
 }
 
