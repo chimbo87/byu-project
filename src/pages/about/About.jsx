@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
-import user01 from "../../assets/user03.jpg";
-import user02 from "../../assets/user01.jpeg";
-import user03 from "../../assets/user02.jpeg";
+import user01 from "../../assets/adrian.jpg";
+import user02 from "../../assets/archie.jpg";
+import user03 from "../../assets/prosper.jpg";
 import user04 from "../../assets/user03.jpg";
 import Footer from "../../components/footer/Footer";
 
@@ -82,7 +82,7 @@ function About() {
             <div id="ourTeamCard">
               <img src={user01} />
               <h5 id="teamName">Adrian Oliphant</h5>
-              <h5 id="teamTitle">Marketing Manager</h5>
+              <h5 id="teamTitle">Supply & Operations</h5>
               <div id="ourTeamIcons">
                 <i class="bx bxl-facebook"></i>
                 <i class="bx bxl-instagram"></i>
@@ -93,36 +93,36 @@ function About() {
           </div>
           <div class="col-lg-3 col-md-4">
             <div id="ourTeamCard">
-              <img src={user03} />
-              <h5 id="teamName">Bafokeng Motopi</h5>
-              <h5 id="teamTitle">Technical Manager</h5>
-              <div id="ourTeamIcons">
-                <i class="bx bxl-facebook"></i>
-                <i class="bx bxl-instagram"></i>
-                <i class="bx bxl-whatsapp"></i>
-                <i class="bx bxl-linkedin"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div id="ourTeamCard">
-              <img src={user01} />
-              <h5 id="teamName">Natashia</h5>
-              <h5 id="teamTitle">Accounting Manager</h5>
-              <div id="ourTeamIcons">
-                <i class="bx bxl-facebook"></i>
-                <i class="bx bxl-instagram"></i>
-                <i class="bx bxl-whatsapp"></i>
-                <i class="bx bxl-linkedin"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div id="ourTeamCard">
-              <img src={user03} />
-
+              <img src={user02} />
               <h5 id="teamName">Archford Nhanga</h5>
-              <h5 id="teamTitle">Technical Manager</h5>
+              <h5 id="teamTitle">Sales & Marketing</h5>
+              <div id="ourTeamIcons">
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-instagram"></i>
+                <i class="bx bxl-whatsapp"></i>
+                <i class="bx bxl-linkedin"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div id="ourTeamCard">
+              <img src={user03} />
+              <h5 id="teamName">Prosper</h5>
+              <h5 id="teamTitle">Analytics & Sales Forecasting</h5>
+              <div id="ourTeamIcons">
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-instagram"></i>
+                <i class="bx bxl-whatsapp"></i>
+                <i class="bx bxl-linkedin"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div id="ourTeamCard">
+              <img src={user04} />
+
+              <h5 id="teamName">Natashia</h5>
+              <h5 id="teamTitle">Finance & Cost Management</h5>
               <div id="ourTeamIcons">
                 <i class="bx bxl-facebook"></i>
                 <i class="bx bxl-instagram"></i>

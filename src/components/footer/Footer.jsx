@@ -15,7 +15,7 @@ function Footer() {
           <i class="bx bxs-quote-right"></i>
         </p>
         <small>
-          Archford C, Zimbabwe ~ <i>20 Oct 2020</i>
+          John Doe
         </small>
       </div>
     </div>,
@@ -28,7 +28,7 @@ function Footer() {
           <i class="bx bxs-quote-right"></i>
         </p>
         <small>
-          John Doe, USA C ~ <i>20 Oct 2020</i>
+          Nyasha J
         </small>
       </div>
     </div>,
@@ -41,7 +41,7 @@ function Footer() {
           <i class="bx bxs-quote-right"></i>
         </p>
         <small>
-          Trish G, Brazil ~ <i>20 Oct 2020</i>
+          Patrik L
         </small>
       </div>
     </div>,
@@ -54,7 +54,7 @@ function Footer() {
           <i class="bx bxs-quote-right"></i>
         </p>
         <small>
-          Travor S ~ <i>20 Oct 2020</i>
+        Travor B.
         </small>
       </div>
     </div>,
@@ -67,7 +67,7 @@ function Footer() {
           <i class="bx bxs-quote-right"></i>
         </p>
         <small>
-          Lylod P, S Africa C ~ <i>20 Oct 2020</i>
+         Francis. D
         </small>
       </div>
     </div>,
@@ -80,7 +80,7 @@ function Footer() {
           <i class="bx bxs-quote-right"></i>
         </p>
         <small>
-          Tatenda B, Mozambique C ~ <i>20 Oct 2020</i>
+          Tatenda B.
         </small>
       </div>
     </div>,
@@ -93,7 +93,7 @@ function Footer() {
           <i class="bx bxs-quote-right"></i>
         </p>
         <small>
-          Archford C ~ <i>20 Oct 2020</i>
+         Nelson W
         </small>
       </div>
     </div>,
@@ -106,7 +106,7 @@ function Footer() {
           <i class="bx bxs-quote-right"></i>
         </p>
         <small>
-          Archford C ~ <i>20 Oct 2020</i>
+         Helbert M
         </small>
       </div>
     </div>,
@@ -119,7 +119,7 @@ function Footer() {
           <i class="bx bxs-quote-right"></i>
         </p>
         <small>
-          Archford C ~ <i>20 Oct 2020</i>
+          Jane S
         </small>
       </div>
     </div>,
@@ -133,7 +133,7 @@ function Footer() {
           <i class="bx bxs-quote-right"></i>
         </p>
         <small>
-          Archford C ~ <i>20 Oct 2020</i>
+          Smith N
         </small>
       </div>
     </div>,
