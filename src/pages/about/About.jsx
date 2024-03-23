@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
-import user01 from "../../assets/adrian.jpg";
+import user01 from "../../assets/adrian01.png";
 import user02 from "../../assets/archie.jpg";
-import user03 from "../../assets/prosper.jpg";
+import user03 from "../../assets/prosper01.png";
 import user04 from "../../assets/user03.jpg";
 import Footer from "../../components/footer/Footer";
 
