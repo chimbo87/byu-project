@@ -3,7 +3,7 @@ import "./About.css";
 import user01 from "../../assets/adrian01.png";
 import user02 from "../../assets/archie.jpg";
 import user03 from "../../assets/prosper01.png";
-import user04 from "../../assets/user03.jpg";
+import user04 from "../../assets/natasha.jpg";
 import Footer from "../../components/footer/Footer";
 
 function About() {
@@ -18,7 +18,7 @@ function About() {
           <div class="col-lg-6 col-md-4">
             <div id="aboutUsCard">
               <p>
-                Welcome to Muonde Juice, where the passion for pure, refreshing
+                Welcome to <b>ALLZ JUICE</b>, where the passion for pure, refreshing
                 fruit juices meets community spirit! Founded by a group of
                 neighbors with a shared love for wholesome living, our journey
                 began right in our own backyard. What started as a small
@@ -30,7 +30,7 @@ function About() {
                 remains unchanged: to bring the taste of our orchard to towns
                 far and wide, nurturing health and happiness one sip at a time.
                 Join us on this flavorful expedition and experience the true
-                essence of Muonde Juice.
+                essence of <b>ALLZ JUICE</b>.
               </p>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -134,7 +134,7 @@ function About() {
         </div>
         <div id="aboutVision">
           <h4>
-            Empowering wellness, one sip at a time. At Mukuyu Juice, we're
+            Empowering wellness, one sip at a time. At ALLZ JUICE, we're
             dedicated to crafting delicious fruit juices that refresh the body,
             invigorate the spirit, and inspire a healthier lifestyle. Join us on
             a journey of vitality and joy.

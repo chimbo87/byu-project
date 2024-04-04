@@ -83,7 +83,7 @@ function Home() {
             <div id="homeAboutBoxCard">
               <h4>Who Are We ?</h4>
               <p>
-                Welcome to Muonde Juice, where the passion for pure, refreshing
+                Welcome to <b>ALLZ JUICE</b>, where the passion for pure, refreshing
                 fruit juices meets community spirit! Founded by a group of
                 neighbors with a shared love for wholesome living, our journey
                 began right in our own backyard. What started as a small
@@ -95,7 +95,7 @@ function Home() {
                 remains unchanged: to bring the taste of our orchard to towns
                 far and wide, nurturing health and happiness one sip at a time.
                 Join us on this flavorful expedition and experience the true
-                essence of Muonde Juice.
+                essence of <b>ALLZ JUICE</b>.
               </p>
               <button
                 onClick={() => {
